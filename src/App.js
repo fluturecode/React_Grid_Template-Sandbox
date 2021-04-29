@@ -1,7 +1,7 @@
 import {
 	HolyGrailWrapper,
 	HeaderWrapper,
-	NavBar,
+	NavBarWrapper,
 	MainWrapper,
 	RightSideBar,
 	Footer,
@@ -14,16 +14,16 @@ export const App = () => {
 			<HolyGrailWrapper>
 				<HeaderWrapper>HEADER</HeaderWrapper>
 				<LeftSideBarWrapper>
-					<NavBar>
+					<NavBarWrapper>
 						<p>Link 1</p>
 						<p>Link 2</p>
 						<p>Link 3</p>
-					</NavBar>
+					</NavBarWrapper>
 				</LeftSideBarWrapper>
 				<MainWrapper>MAIN CONTENT</MainWrapper>
 				<RightSideBar>SIDEBAR</RightSideBar>
+				<Footer>Copywright FOOTER</Footer>
 			</HolyGrailWrapper>
-			<Footer>Copywright FOOTER</Footer>
 		</>
 	)
 }
