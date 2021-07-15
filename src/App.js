@@ -1,12 +1,6 @@
 import {
-	HolyGrailWrapper,
-	HeaderWrapper,
-	NavBarWrapper,
-	MainWrapper,
-	RightSideBar,
-	Footer,
-	LeftSideBarWrapper,
-} from "./styledApp.js"
+	Footer, HeaderWrapper, HolyGrailWrapper, LeftSideBarWrapper, MainWrapper, NavBarWrapper, RightSideBar
+} from "./App.styled"
 
 export const App = () => {
 	return (
